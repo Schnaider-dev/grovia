@@ -1,0 +1,32 @@
+#Dependencies
+node_modules
+.pnpm-store
+
+#Builds outputs and caches
+dist
+build
+out
+.next
+.turbo
+.cache
+*.tsbuildinfo
+next-env.d.ts
+
+#Environment 
+.env
+.env.*
+
+#logs
+*.log
+
+#Test reports
+coverage
+playwrigth-report
+test-result
+
+# DS and editors
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
