@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "nodenext",
+        "moduleResolution":"nodenext",
+        "rootDir": "./",
+        "outDir":"./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "sourceMap": true,
+        "types": ["node"]
+    },
+    "include": ["."],
+    "exclude": ["node_modules", "dist"],
+}
